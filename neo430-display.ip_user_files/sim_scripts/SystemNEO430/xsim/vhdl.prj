@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../bd/SystemNEO430/ip/SystemNEO430_neo430_top_0_0/sim/SystemNEO430_neo430_top_0_0.vhd" \
+"../../../bd/SystemNEO430/sim/SystemNEO430.vhd" \
+
+nosort

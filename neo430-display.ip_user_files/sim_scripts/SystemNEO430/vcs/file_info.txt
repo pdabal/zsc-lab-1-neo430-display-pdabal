@@ -1,0 +1,2 @@
+SystemNEO430_neo430_top_0_0.vhd,vhdl,xil_defaultlib,../../../bd/SystemNEO430/ip/SystemNEO430_neo430_top_0_0/sim/SystemNEO430_neo430_top_0_0.vhd,
+SystemNEO430.vhd,vhdl,xil_defaultlib,../../../bd/SystemNEO430/sim/SystemNEO430.vhd,
