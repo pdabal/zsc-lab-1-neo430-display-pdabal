@@ -87,6 +87,35 @@ set_property ip_output_repo c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/n
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+read_vhdl -library neo430 {
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_package.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_addr_gen.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_alu.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_application_image.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_bootloader_image.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_boot_rom.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_cfu.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_control.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_cpu.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_crc.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_dmem.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_exirq.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_freq_gen.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_gpio.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_imem.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_muldiv.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_pwm.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_reg_file.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_spi.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_sysconfig.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_timer.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_trng.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_twi.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_uart.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_wb_interface.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_wdt.vhd
+  C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_top.vhd
+}
 read_vhdl -library xil_defaultlib c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/hdl/SystemNEO430_wrapper.vhd
 add_files C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/bd/SystemNEO430/SystemNEO430.bd
 set_property used_in_implementation false [get_files -all c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/SystemNEO430_ooc.xdc]

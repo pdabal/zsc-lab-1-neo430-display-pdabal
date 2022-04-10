@@ -6,7 +6,7 @@
       "gen_directory": "../../../../neo430-display.gen/sources_1/bd/SystemNEO430",
       "name": "SystemNEO430",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
-      "synth_flow_mode": "Hierarchical",
+      "synth_flow_mode": "None",
       "tool_version": "2021.2",
       "validated": "true"
     },
@@ -92,11 +92,14 @@
         "xci_path": "ip\\SystemNEO430_neo430_top_0_0\\SystemNEO430_neo430_top_0_0.xci",
         "inst_hier_path": "neo430_top_0",
         "parameters": {
+          "BOOTLD_USE": {
+            "value": "true"
+          },
           "CFU_USE": {
             "value": "false"
           },
           "CLOCK_SPEED": {
-            "value": "100000001"
+            "value": "100000000"
           },
           "CRC_USE": {
             "value": "false"

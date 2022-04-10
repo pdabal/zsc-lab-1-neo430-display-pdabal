@@ -140,7 +140,7 @@ ARCHITECTURE SystemNEO430_neo430_top_0_0_arch OF SystemNEO430_neo430_top_0_0 IS
 BEGIN
   U0 : neo430_top
     GENERIC MAP (
-      CLOCK_SPEED => 100000001,
+      CLOCK_SPEED => 100000000,
       IMEM_SIZE => 4096,
       DMEM_SIZE => 2048,
       USER_CODE => X"0000",

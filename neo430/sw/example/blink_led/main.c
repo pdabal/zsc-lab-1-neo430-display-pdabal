@@ -54,11 +54,14 @@ int main(void) {
   // intro text
   neo430_uart_br_print("\nBlinking LED demo program\n");
 
-  uint16_t i = 0;
+  uint16_t i = 16;
   while (1) {
     neo430_gpio_port_set(0x00FF & (i++)); // set output port and increment counter
-    neo430_cpu_delay_ms(200); // wait 200ms
+    neo430_cpu_delay_ms(1000); // wait 200ms
+    neo430_uart_print_hex_word(i);
+    neo430_uart_br_print("\n");
   }
 
   return 0;
 }
+

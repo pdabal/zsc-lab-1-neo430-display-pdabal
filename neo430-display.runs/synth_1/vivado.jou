@@ -2,8 +2,8 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Sat Apr  9 20:32:31 2022
-# Process ID: 22396
+# Start of session at: Sat Apr  9 21:41:34 2022
+# Process ID: 26456
 # Current directory: C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.runs/synth_1
 # Command line: vivado.exe -log SystemNEO430_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SystemNEO430_wrapper.tcl
 # Log file: C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.runs/synth_1/SystemNEO430_wrapper.vds

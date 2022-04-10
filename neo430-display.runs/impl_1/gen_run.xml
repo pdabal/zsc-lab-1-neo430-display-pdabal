@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1649529085">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1649533285">
   <File Type="ROUTE-PWR" Name="SystemNEO430_wrapper_power_routed.rpt"/>
   <File Type="PA-TCL" Name="SystemNEO430_wrapper.tcl"/>
   <File Type="BITSTR-MMI" Name="SystemNEO430_wrapper.mmi"/>
@@ -376,5 +376,4 @@
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="SystemNEO430_neo430_top_0_0"/>
 </GenRun>

@@ -2,8 +2,8 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Sat Apr  9 20:32:31 2022
-# Process ID: 22396
+# Start of session at: Sat Apr  9 21:41:34 2022
+# Process ID: 26456
 # Current directory: C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.runs/synth_1
 # Command line: vivado.exe -log SystemNEO430_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SystemNEO430_wrapper.tcl
 # Log file: C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.runs/synth_1/SystemNEO430_wrapper.vds
@@ -14,6 +14,8 @@ source SystemNEO430_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Programowanie/Xilinx/Vivado/2021.2/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
 Command: read_checkpoint -auto_incremental -incremental C:/Projects/LabZSC/WEL21ET1N4/pawel_dabal/Lab-1/neo430-display.srcs/utils_1/imports/synth_1/SystemNEO430_wrapper.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Projects/LabZSC/WEL21ET1N4/pawel_dabal/Lab-1/neo430-display.srcs/utils_1/imports/synth_1/SystemNEO430_wrapper.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -26,36 +28,226 @@ WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis b
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 13008
+INFO: [Synth 8-7075] Helper process launched with PID 14484
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1249.125 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'SystemNEO430_wrapper' [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/hdl/SystemNEO430_wrapper.vhd:24]
 INFO: [Synth 8-3491] module 'SystemNEO430' declared at 'c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/synth/SystemNEO430.vhd:14' bound to instance 'SystemNEO430_i' of component 'SystemNEO430' [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/hdl/SystemNEO430_wrapper.vhd:35]
 INFO: [Synth 8-638] synthesizing module 'SystemNEO430' [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/synth/SystemNEO430.vhd:28]
-INFO: [Synth 8-3491] module 'SystemNEO430_neo430_top_0_0' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.runs/synth_1/.Xil/Vivado-22396-Laptop-G5-5590/realtime/SystemNEO430_neo430_top_0_0_stub.vhdl:5' bound to instance 'neo430_top_0' of component 'SystemNEO430_neo430_top_0_0' [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/synth/SystemNEO430.vhd:94]
-INFO: [Synth 8-638] synthesizing module 'SystemNEO430_neo430_top_0_0' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.runs/synth_1/.Xil/Vivado-22396-Laptop-G5-5590/realtime/SystemNEO430_neo430_top_0_0_stub.vhdl:35]
-INFO: [Synth 8-256] done synthesizing module 'SystemNEO430' (1#1) [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/synth/SystemNEO430.vhd:28]
-INFO: [Synth 8-256] done synthesizing module 'SystemNEO430_wrapper' (2#1) [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/hdl/SystemNEO430_wrapper.vhd:24]
+INFO: [Synth 8-3491] module 'SystemNEO430_neo430_top_0_0' declared at 'c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/ip/SystemNEO430_neo430_top_0_0/synth/SystemNEO430_neo430_top_0_0.vhd:56' bound to instance 'neo430_top_0' of component 'SystemNEO430_neo430_top_0_0' [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/synth/SystemNEO430.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'SystemNEO430_neo430_top_0_0' [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/ip/SystemNEO430_neo430_top_0_0/synth/SystemNEO430_neo430_top_0_0.vhd:85]
+	Parameter CLOCK_SPEED bound to: 100000000 - type: integer 
+	Parameter IMEM_SIZE bound to: 4096 - type: integer 
+	Parameter DMEM_SIZE bound to: 2048 - type: integer 
+	Parameter USER_CODE bound to: 16'b0000000000000000 
+	Parameter MULDIV_USE bound to: 0 - type: bool 
+	Parameter WB32_USE bound to: 0 - type: bool 
+	Parameter WDT_USE bound to: 0 - type: bool 
+	Parameter GPIO_USE bound to: 1 - type: bool 
+	Parameter TIMER_USE bound to: 0 - type: bool 
+	Parameter UART_USE bound to: 1 - type: bool 
+	Parameter CRC_USE bound to: 0 - type: bool 
+	Parameter CFU_USE bound to: 0 - type: bool 
+	Parameter PWM_USE bound to: 1 - type: bool 
+	Parameter TWI_USE bound to: 0 - type: bool 
+	Parameter SPI_USE bound to: 0 - type: bool 
+	Parameter TRNG_USE bound to: 0 - type: bool 
+	Parameter EXIRQ_USE bound to: 0 - type: bool 
+	Parameter FREQ_GEN_USE bound to: 0 - type: bool 
+	Parameter BOOTLD_USE bound to: 1 - type: bool 
+	Parameter IMEM_AS_ROM bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'neo430_top' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_top.vhd:70' bound to instance 'U0' of component 'neo430_top' [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/ip/SystemNEO430_neo430_top_0_0/synth/SystemNEO430_neo430_top_0_0.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'neo430_top' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_top.vhd:132]
+	Parameter BOOTLD_USE bound to: 1 - type: bool 
+	Parameter IMEM_AS_ROM bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'neo430_cpu' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_cpu.vhd:44' bound to instance 'neo430_cpu_inst' of component 'neo430_cpu' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_top.vhd:263]
+INFO: [Synth 8-638] synthesizing module 'neo430_cpu' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_cpu.vhd:65]
+INFO: [Synth 8-3491] module 'neo430_control' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_control.vhd:44' bound to instance 'neo430_control_inst' of component 'neo430_control' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_cpu.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'neo430_control' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_control.vhd:61]
+INFO: [Synth 8-226] default block is never used [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_control.vhd:96]
+INFO: [Synth 8-256] done synthesizing module 'neo430_control' (1#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_control.vhd:61]
+	Parameter BOOTLD_USE bound to: 1 - type: bool 
+	Parameter IMEM_AS_ROM bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'neo430_reg_file' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_reg_file.vhd:44' bound to instance 'neo430_reg_file_inst' of component 'neo430_reg_file' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_cpu.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'neo430_reg_file' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_reg_file.vhd:65]
+INFO: [Synth 8-226] default block is never used [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_reg_file.vhd:191]
+INFO: [Synth 8-256] done synthesizing module 'neo430_reg_file' (2#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_reg_file.vhd:65]
+INFO: [Synth 8-3491] module 'neo430_alu' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_alu.vhd:44' bound to instance 'neo430_alu_inst' of component 'neo430_alu' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_cpu.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'neo430_alu' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_alu.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'neo430_alu' (3#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_alu.vhd:60]
+INFO: [Synth 8-3491] module 'neo430_addr_gen' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_addr_gen.vhd:44' bound to instance 'neo430_addr_gen_inst' of component 'neo430_addr_gen' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_cpu.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'neo430_addr_gen' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_addr_gen.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'neo430_addr_gen' (4#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_addr_gen.vhd:61]
+WARNING: [Synth 8-6014] Unused sequential element rd_ff_reg was removed.  [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_cpu.vhd:172]
+INFO: [Synth 8-256] done synthesizing module 'neo430_cpu' (5#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_cpu.vhd:65]
+	Parameter IMEM_SIZE bound to: 4096 - type: integer 
+	Parameter IMEM_AS_ROM bound to: 0 - type: bool 
+	Parameter BOOTLD_USE bound to: 1 - type: bool 
+INFO: [Synth 8-3491] module 'neo430_imem' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_imem.vhd:48' bound to instance 'neo430_imem_inst' of component 'neo430_imem' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_top.vhd:298]
+INFO: [Synth 8-638] synthesizing module 'neo430_imem' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_imem.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'neo430_imem' (6#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_imem.vhd:65]
+	Parameter DMEM_SIZE bound to: 2048 - type: integer 
+INFO: [Synth 8-3491] module 'neo430_dmem' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_dmem.vhd:42' bound to instance 'neo430_dmem_inst' of component 'neo430_dmem' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_top.vhd:314]
+INFO: [Synth 8-638] synthesizing module 'neo430_dmem' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_dmem.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'neo430_dmem' (7#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_dmem.vhd:56]
+INFO: [Synth 8-3491] module 'neo430_boot_rom' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_boot_rom.vhd:46' bound to instance 'neo430_boot_rom_inst' of component 'neo430_boot_rom' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_top.vhd:332]
+INFO: [Synth 8-638] synthesizing module 'neo430_boot_rom' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_boot_rom.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'neo430_boot_rom' (8#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_boot_rom.vhd:55]
+INFO: [Synth 8-3491] module 'neo430_uart' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_uart.vhd:45' bound to instance 'neo430_uart_inst' of component 'neo430_uart' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_top.vhd:417]
+INFO: [Synth 8-638] synthesizing module 'neo430_uart' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_uart.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'neo430_uart' (9#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_uart.vhd:65]
+INFO: [Synth 8-3491] module 'neo430_gpio' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_gpio.vhd:46' bound to instance 'neo430_gpio_inst' of component 'neo430_gpio' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_top.vhd:487]
+INFO: [Synth 8-638] synthesizing module 'neo430_gpio' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_gpio.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'neo430_gpio' (10#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_gpio.vhd:65]
+INFO: [Synth 8-3491] module 'neo430_pwm' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_pwm.vhd:46' bound to instance 'neo430_pwm_inst' of component 'neo430_pwm' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_top.vhd:626]
+INFO: [Synth 8-638] synthesizing module 'neo430_pwm' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_pwm.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'neo430_pwm' (11#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_pwm.vhd:65]
+	Parameter CLOCK_SPEED bound to: 100000000 - type: integer 
+	Parameter IMEM_SIZE bound to: 4096 - type: integer 
+	Parameter DMEM_SIZE bound to: 2048 - type: integer 
+	Parameter USER_CODE bound to: 16'b0000000000000000 
+	Parameter MULDIV_USE bound to: 0 - type: bool 
+	Parameter WB32_USE bound to: 0 - type: bool 
+	Parameter WDT_USE bound to: 0 - type: bool 
+	Parameter GPIO_USE bound to: 1 - type: bool 
+	Parameter TIMER_USE bound to: 0 - type: bool 
+	Parameter UART_USE bound to: 1 - type: bool 
+	Parameter CRC_USE bound to: 0 - type: bool 
+	Parameter CFU_USE bound to: 0 - type: bool 
+	Parameter PWM_USE bound to: 1 - type: bool 
+	Parameter TWI_USE bound to: 0 - type: bool 
+	Parameter SPI_USE bound to: 0 - type: bool 
+	Parameter TRNG_USE bound to: 0 - type: bool 
+	Parameter EXIRQ_USE bound to: 0 - type: bool 
+	Parameter FREQ_GEN_USE bound to: 0 - type: bool 
+	Parameter BOOTLD_USE bound to: 1 - type: bool 
+	Parameter IMEM_AS_ROM bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'neo430_sysconfig' declared at 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_sysconfig.vhd:45' bound to instance 'neo430_sysconfig_inst' of component 'neo430_sysconfig' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_top.vhd:768]
+INFO: [Synth 8-638] synthesizing module 'neo430_sysconfig' [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_sysconfig.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'neo430_sysconfig' (12#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_sysconfig.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'neo430_top' (13#1) [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_top.vhd:132]
+INFO: [Synth 8-256] done synthesizing module 'SystemNEO430_neo430_top_0_0' (14#1) [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/ip/SystemNEO430_neo430_top_0_0/synth/SystemNEO430_neo430_top_0_0.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'SystemNEO430' (15#1) [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/synth/SystemNEO430.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'SystemNEO430_wrapper' (16#1) [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/hdl/SystemNEO430_wrapper.vhd:24]
+WARNING: [Synth 8-7129] Port wren_i in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[15] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[14] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[13] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[12] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[11] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[10] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[9] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[8] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[7] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[0] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[15] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[14] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[13] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[12] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[11] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[10] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[9] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[8] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[7] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[6] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[5] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[4] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[3] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[2] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[1] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_i[0] in module neo430_sysconfig is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[15] in module neo430_pwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[14] in module neo430_pwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[13] in module neo430_pwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[12] in module neo430_pwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[11] in module neo430_pwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[10] in module neo430_pwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[9] in module neo430_pwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[8] in module neo430_pwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[7] in module neo430_pwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[0] in module neo430_pwm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[15] in module neo430_gpio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[14] in module neo430_gpio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[13] in module neo430_gpio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[12] in module neo430_gpio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[11] in module neo430_gpio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[10] in module neo430_gpio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[9] in module neo430_gpio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[8] in module neo430_gpio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[7] in module neo430_gpio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[0] in module neo430_gpio is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[15] in module neo430_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[14] in module neo430_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[13] in module neo430_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[12] in module neo430_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[11] in module neo430_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[10] in module neo430_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[9] in module neo430_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[8] in module neo430_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[7] in module neo430_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_i[0] in module neo430_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[28] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[27] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[19] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[18] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[17] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[16] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[15] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[14] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[13] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[12] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[11] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[10] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[9] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[8] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[7] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[6] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[5] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[4] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[3] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[2] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[1] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[0] in module neo430_addr_gen is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sreg_i[15] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sreg_i[14] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sreg_i[13] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sreg_i[12] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sreg_i[11] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sreg_i[10] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sreg_i[9] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sreg_i[7] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sreg_i[6] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sreg_i[5] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sreg_i[4] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sreg_i[3] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[28] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[27] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[26] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[25] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[24] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[23] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[22] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[21] in module neo430_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ctrl_i[20] in module neo430_alu is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1305.301 ; gain = 56.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1305.301 ; gain = 56.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1305.301 ; gain = 56.176
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1305.301 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/ip/SystemNEO430_neo430_top_0_0/SystemNEO430_neo430_top_0_0/SystemNEO430_neo430_top_0_0_in_context.xdc] for cell 'SystemNEO430_i/neo430_top_0'
-Finished Parsing XDC File [c:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.gen/sources_1/bd/SystemNEO430/ip/SystemNEO430_neo430_top_0_0/SystemNEO430_neo430_top_0_0/SystemNEO430_neo430_top_0_0_in_context.xdc] for cell 'SystemNEO430_i/neo430_top_0'
 Parsing XDC File [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/constrs_1/new/SystemNEO430.xdc]
 Finished Parsing XDC File [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/constrs_1/new/SystemNEO430.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/constrs_1/new/SystemNEO430.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SystemNEO430_wrapper_propImpl.xdc].
@@ -64,22 +256,22 @@ Parsing XDC File [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-disp
 Finished Parsing XDC File [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1305.301 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1305.301 ; gain = 0.000
 WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1305.301 ; gain = 56.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1305.301 ; gain = 56.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -87,15 +279,95 @@ Start Applying 'set_property' XDC Constraints
 Applied set_property KEEP_HIERARCHY = SOFT for SystemNEO430_i. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for SystemNEO430_i/neo430_top_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1305.301 ; gain = 56.176
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'neo430_control'
+WARNING: [Synth 8-3936] Found unconnected internal register 'ctrl_reg' and it is trimmed from '16' to '15' bits. [C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.srcs/sources_1/imports/core/neo430_uart.vhd:138]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   reset |                            00000 |                            00000
+                ifetch_0 |                            00001 |                            00001
+                   irq_0 |                            00010 |                            10010
+                   irq_1 |                            00011 |                            10011
+                   irq_2 |                            00100 |                            10100
+                   irq_3 |                            00101 |                            10101
+                   irq_4 |                            00110 |                            10110
+                   irq_5 |                            00111 |                            10111
+                ifetch_1 |                            01000 |                            00010
+                  decode |                            01001 |                            00011
+                 trans_0 |                            01010 |                            00100
+                 trans_1 |                            01011 |                            00101
+                 trans_2 |                            01100 |                            00110
+                 trans_3 |                            01101 |                            00111
+                 trans_4 |                            01110 |                            01000
+              pushcall_0 |                            01111 |                            01011
+              pushcall_1 |                            10000 |                            01100
+              pushcall_2 |                            10001 |                            01101
+                 trans_5 |                            10010 |                            01001
+                 trans_6 |                            10011 |                            01010
+                  reti_0 |                            10100 |                            01110
+                  reti_1 |                            10101 |                            01111
+                  reti_2 |                            10110 |                            10000
+                  reti_3 |                            10111 |                            10001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'neo430_control'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1305.301 ; gain = 56.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 2     
+	   3 Input    9 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    4 Bit       Adders := 2     
++---XORs : 
+	   2 Input     16 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               29 Bit    Registers := 1     
+	               16 Bit    Registers := 15    
+	               15 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 12    
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 7     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 20    
++---RAMs : 
+	              16K Bit	(2048 X 8 bit)          RAMs := 2     
+	               8K Bit	(1024 X 8 bit)          RAMs := 2     
++---ROMs : 
+	                    ROMs := 1     
++---Muxes : 
+	   2 Input   29 Bit        Muxes := 9     
+	   5 Input   29 Bit        Muxes := 1     
+	   3 Input   29 Bit        Muxes := 2     
+	  24 Input   29 Bit        Muxes := 2     
+	   2 Input   16 Bit        Muxes := 24    
+	   8 Input   16 Bit        Muxes := 2     
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 3     
+	  54 Input    5 Bit        Muxes := 1     
+	   6 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 4     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	  11 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 4     
+	  24 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 33    
+	   5 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 1     
+	  24 Input    1 Bit        Muxes := 6     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -113,25 +385,90 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:41 . Memory (MB): peak = 1305.301 ; gain = 56.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++----------------+------------+---------------+----------------+
+|Module Name     | RTL Object | Depth x Width | Implemented As | 
++----------------+------------+---------------+----------------+
+|neo430_boot_rom | rdata_reg  | 1024x16       | Block RAM      | 
++----------------+------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping Report (see note below)
++----------------------------+-----------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                 | RTL Object                              | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------------------+-----------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|SystemNEO430_i/neo430_top_0 | U0/neo430_imem_inst/imem_file_ram_l_reg | 2 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|SystemNEO430_i/neo430_top_0 | U0/neo430_imem_inst/imem_file_ram_h_reg | 2 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|SystemNEO430_i/neo430_top_0 | U0/neo430_dmem_inst/dmem_file_l_reg     | 1 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|SystemNEO430_i/neo430_top_0 | U0/neo430_dmem_inst/dmem_file_h_reg     | 1 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
++----------------------------+-----------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++----------------------------+------------------------------------------------------+-----------+----------------------+----------------+
+|Module Name                 | RTL Object                                           | Inference | Size (Depth x Width) | Primitives     | 
++----------------------------+------------------------------------------------------+-----------+----------------------+----------------+
+|SystemNEO430_i/neo430_top_0 | U0/neo430_cpu_inst/neo430_reg_file_inst/reg_file_reg | Implied   | 16 x 16              | RAM16X1S x 16  | 
++----------------------------+------------------------------------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1305.301 ; gain = 56.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Timing Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1305.301 ; gain = 56.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++----------------------------+-----------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                 | RTL Object                              | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------------------+-----------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|SystemNEO430_i/neo430_top_0 | U0/neo430_imem_inst/imem_file_ram_l_reg | 2 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|SystemNEO430_i/neo430_top_0 | U0/neo430_imem_inst/imem_file_ram_h_reg | 2 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|SystemNEO430_i/neo430_top_0 | U0/neo430_dmem_inst/dmem_file_l_reg     | 1 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
+|SystemNEO430_i/neo430_top_0 | U0/neo430_dmem_inst/dmem_file_h_reg     | 1 K x 8(READ_FIRST)    | W | R |                        |   |   | Port A           | 1      | 0      | 
++----------------------------+-----------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
++----------------------------+------------------------------------------------------+-----------+----------------------+----------------+
+|Module Name                 | RTL Object                                           | Inference | Size (Depth x Width) | Primitives     | 
++----------------------------+------------------------------------------------------+-----------+----------------------+----------------+
+|SystemNEO430_i/neo430_top_0 | U0/neo430_cpu_inst/neo430_reg_file_inst/reg_file_reg | Implied   | 16 x 16              | RAM16X1S x 16  | 
++----------------------------+------------------------------------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance SystemNEO430_i/neo430_top_0/U0/neo430_imem_inst/imem_file_ram_l_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance SystemNEO430_i/neo430_top_0/U0/neo430_imem_inst/imem_file_ram_h_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance SystemNEO430_i/neo430_top_0/U0/neo430_dmem_inst/dmem_file_l_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance SystemNEO430_i/neo430_top_0/U0/neo430_dmem_inst/dmem_file_h_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance SystemNEO430_i/neo430_top_0/U0/neo430_boot_rom_inst_true.neo430_boot_rom_inst/rdata_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 1311.801 ; gain = 62.676
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -149,76 +486,91 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished IO Insertion : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 1311.801 ; gain = 62.676
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 1311.801 ; gain = 62.676
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 1311.801 ; gain = 62.676
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 1311.801 ; gain = 62.676
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 1311.801 ; gain = 62.676
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:56 ; elapsed = 00:00:57 . Memory (MB): peak = 1311.801 ; gain = 62.676
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
 
 Report BlackBoxes: 
-+------+----------------------------+----------+
-|      |BlackBox name               |Instances |
-+------+----------------------------+----------+
-|1     |SystemNEO430_neo430_top_0_0 |         1|
-+------+----------------------------+----------+
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
 
 Report Cell Usage: 
-+------+---------------------------------+------+
-|      |Cell                             |Count |
-+------+---------------------------------+------+
-|1     |SystemNEO430_neo430_top_0_0_bbox |     1|
-|2     |IBUF                             |     3|
-|3     |OBUF                             |    17|
-+------+---------------------------------+------+
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    18|
+|3     |LUT1     |    17|
+|4     |LUT2     |    51|
+|5     |LUT3     |   118|
+|6     |LUT4     |    89|
+|7     |LUT5     |   144|
+|8     |LUT6     |   295|
+|9     |MUXF7    |     7|
+|10    |RAM16X1S |    16|
+|11    |RAMB18E1 |     5|
+|14    |FDCE     |    25|
+|15    |FDRE     |   318|
+|16    |FDSE     |     4|
+|17    |IBUF     |     3|
+|18    |OBUF     |    17|
++------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:56 ; elapsed = 00:00:57 . Memory (MB): peak = 1311.801 ; gain = 62.676
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1248.797 ; gain = 0.000
-Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Synthesis finished with 0 errors, 0 critical warnings and 104 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:54 . Memory (MB): peak = 1311.801 ; gain = 62.676
+Synthesis Optimization Complete : Time (s): cpu = 00:00:56 ; elapsed = 00:00:57 . Memory (MB): peak = 1311.801 ; gain = 62.676
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1319.633 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1248.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1323.301 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 16 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 16 instances
 
-Synth Design complete, checksum: 8fbea86
+Synth Design complete, checksum: 919b56f2
 INFO: [Common 17-83] Releasing license: Synthesis
-27 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+81 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1248.797 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 1323.301 ; gain = 74.176
 INFO: [Common 17-1381] The checkpoint 'C:/Projects/LabZSC/zsc-lab-1-neo430-display-pdabal/neo430-display.runs/synth_1/SystemNEO430_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file SystemNEO430_wrapper_utilization_synth.rpt -pb SystemNEO430_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Apr  9 20:33:13 2022...
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  9 21:42:46 2022...

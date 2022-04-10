@@ -140,14 +140,14 @@ ARCHITECTURE SystemNEO430_neo430_top_0_0_arch OF SystemNEO430_neo430_top_0_0 IS
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF SystemNEO430_neo430_top_0_0_arch : ARCHITECTURE IS "SystemNEO430_neo430_top_0_0,neo430_top,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF SystemNEO430_neo430_top_0_0_arch: ARCHITECTURE IS "SystemNEO430_neo430_top_0_0,neo430_top,{x_ipProduct=Vivado 2021.2,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=neo430_top,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VHDL,x_ipSimLanguage=VHDL,CLOCK_SPEED=100000001,IMEM_SIZE=4096,DMEM_SIZE=2048,USER_CODE=0x0000,MULDIV_USE=false,WB32_USE=false,WDT_USE=false,GPIO_USE=true,TIMER_USE=false,UART_USE=true,CRC_USE=false,CFU_USE=false,PWM_USE=true,TWI_USE=false,SPI_USE=false,TRNG_USE=false,EXIRQ_USE=false,FREQ_GEN_USE=false,BOOTLD_USE=true,I" & 
+  ATTRIBUTE CORE_GENERATION_INFO OF SystemNEO430_neo430_top_0_0_arch: ARCHITECTURE IS "SystemNEO430_neo430_top_0_0,neo430_top,{x_ipProduct=Vivado 2021.2,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=neo430_top,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VHDL,x_ipSimLanguage=VHDL,CLOCK_SPEED=100000000,IMEM_SIZE=4096,DMEM_SIZE=2048,USER_CODE=0x0000,MULDIV_USE=false,WB32_USE=false,WDT_USE=false,GPIO_USE=true,TIMER_USE=false,UART_USE=true,CRC_USE=false,CFU_USE=false,PWM_USE=true,TWI_USE=false,SPI_USE=false,TRNG_USE=false,EXIRQ_USE=false,FREQ_GEN_USE=false,BOOTLD_USE=true,I" & 
 "MEM_AS_ROM=false}";
   ATTRIBUTE IP_DEFINITION_SOURCE : STRING;
   ATTRIBUTE IP_DEFINITION_SOURCE OF SystemNEO430_neo430_top_0_0_arch: ARCHITECTURE IS "module_ref";
 BEGIN
   U0 : neo430_top
     GENERIC MAP (
-      CLOCK_SPEED => 100000001,
+      CLOCK_SPEED => 100000000,
       IMEM_SIZE => 4096,
       DMEM_SIZE => 2048,
       USER_CODE => X"0000",
